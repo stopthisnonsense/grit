@@ -1,0 +1,48 @@
+[01-Jun-2021 15:56:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[12-Oct-2021 16:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[05-Nov-2021 17:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/pogoda2/public_html/wp-content/themes/grit/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/header.php on line 2
+[05-Nov-2021 17:22:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[15-Dec-2021 06:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/pogoda2/public_html/wp-content/themes/grit/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/index.php on line 1
+[15-Dec-2021 06:57:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/pogoda2/public_html/wp-content/themes/grit/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/pogoda2/public_html/wp-content/themes/grit/header.php on line 2
