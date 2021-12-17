@@ -32,7 +32,7 @@
     <script type="text/javascript">
         var url = "<?php echo get_site_url(); ?>";
     </script>
-    
+
 
 </head>
 <body <?php body_class(); ?>>
@@ -124,7 +124,7 @@ $portfolio_children = get_page_children( $post->ID, $all_wp_pages );
     $otherli = "";
     foreach($portfolio_children as $c){
         $otherli .= "<li class='menu-item'>
-                <a href='".$c->guid."'>".$c->post_title."</a>
+                <a href='".get_the_permalink($c->ID)."'>".$c->post_title."</a>
             </li>";
     }
 
@@ -150,7 +150,7 @@ if(empty($hide_parent)) {
             $otherli .= " current-menu-item";
         }
         $otherli .= "'>
-                <a href='".$c->guid."'>".$c->post_title."</a>
+                <a href='".get_The_permalink($c->ID)."'>".$c->post_title."</a>
             </li>";
     }
 
