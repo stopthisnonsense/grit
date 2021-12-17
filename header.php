@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@pogoda">
     <meta name="twitter:title" content="<?php  echo $post->post_title; ?>">
-    <meta name="twitter:description" content="<?php echo get_the_excerpt($post->ID); ?>">
+    <meta name="twitter:description" content="<?php echo esc_attr(get_the_excerpt($post->ID)); ?>">
     <meta name="twitter:creator" content="@pogoda">
 
     <meta name="twitter:image" content="<?php echo $feat_image; ?>">
@@ -27,8 +27,8 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="<?php echo get_the_permalink($post->ID); ?>" />
     <meta property="og:image" content="<?php echo $feat_image; ?>" />
-    <meta property="og:description" content="<?php echo get_the_excerpt($post->ID); ?>" />
-    <meta property="og:site_name" content="<?php echo bloginfo('blogname'); ?>" />
+    <meta property="og:description" content="<?php echo esc_attr(get_the_excerpt($post->ID)); ?>" />
+    <meta property="og:site_name" content="<?php echo get_bloginfo('blogname'); ?>" />
     <script type="text/javascript">
         var url = "<?php echo get_site_url(); ?>";
     </script>
@@ -38,8 +38,8 @@
 <body <?php body_class(); ?>>
 
 <?php
-global $post;
-
+// global $post;
+// var_dump($post);
 if (!is_home()) {
     $feat_image = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
     echo "<div class='top-banner clearfix' style='background: url(" . $feat_image . ")'>";
